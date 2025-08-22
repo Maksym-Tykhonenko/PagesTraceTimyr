@@ -21,12 +21,12 @@ const OnboardingScreen = ({ navigation }: any) => {
 
   const handleSkip = () => {
     dispatch(setOnboardingCompleted(true));
-    navigation.replace('Main');
+    navigation.replace('Maxxxin');
   };
 
   const handleComplete = () => {
     dispatch(setOnboardingCompleted(true));
-    navigation.replace('Main');
+    navigation.replace('Maxxxin');
   };
 
   const renderCurrentStep = () => {
